@@ -1,0 +1,13 @@
+
+1.0 - Initial Release ( still in the future  )
+
+
+
+
+0.0003 - ThingDefs for Implants finished. 
+0.0002 - implants in creation. 
+0.0001 - geneseed created
+
+
+
+0.0 - Creating the Basics
