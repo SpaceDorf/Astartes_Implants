@@ -2,9 +2,15 @@
 <ThingCategoryDefs>
 	
     	<ThingCategoryDef>
-    		<defName>BodyPartsAnimalArtificial</defName>
-    		<label>Animal Body Part</label>
+    		<defName>BodyParts_GeneSeed</defName>
+    		<label>Astartes Geneseed Implants</label>
     		<parent>BodyPartsArtificial</parent>
     	</ThingCategoryDef>
 
+        <ThingCategoryDef>
+            <defName>GeneSeed_Zygote</defName>
+            <label>Geneseed Zygote</label>
+            <parent>EggsUnfertilized</parent>
+        </ThingCategoryDef>
+		  
 </ThingCategoryDefs>
