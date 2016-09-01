@@ -2,6 +2,140 @@
 
 <Defs>
   
+  	<HediffDef Name="addedAstartesImplant" Abstract="True">
+		<hediffClass>Hediff_AddedPart</hediffClass>
+		<naturallyHealed>true</naturallyHealed>
+         <defaultLabelColor>(35,150,35)</defaultLabelColor>
+		<isBad>false</isBad>
+	</HediffDef>
+
+
+	<!-- Added body parts -->
+
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>LymansEar</defName>
+		<label>lyman's ear</label>
+		<spawnThingOnRemoved>LymansEar</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+						<capacity>Hearing</capacity>
+						<offset>0.25</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+	</HediffDef>
+
+	
+	
+	
+   
+   <!-- Astartes Implants, new Bodyparts -->
+   <!--
+  
+   
+         <HediffDef ParentName="addedPartAstartes_Implant">
+      <defName>BasicImplantAll</defName>
+      <label>artificial heart</label>
+      <spawnThingOnRemoved>SecondHeart</spawnThingOnRemoved>
+      <addedPartProps>
+	  
+         <isSolid>true</isSolid>
+         <partEfficiency>1.0</partEfficiency>
+      </addedPartProps>
+      <stages>
+		<li>
+         <capMods>
+            <li>
+               <capacity>BloodPumping</capacity>
+               <offset>0.5</offset>
+            </li>
+            <li>
+               <capacity>Moving</capacity>
+               <offset>0.1</offset>
+            </li>
+			<li>
+               <capacity>Metabolism</capacity>
+               <offset>0.1</offset>
+            </li>
+			
+						
+			<li>
+               <capacity>BloodFiltration</capacity>
+               <offset>0.1</offset>
+            </li>
+			
+	       <li>
+               <capacity>Breathing</capacity>
+           </li>
+ 
+		   <li>
+               <capacity>Manipulation</capacity>
+               <offset>0.3</offset>
+            </li>
+			
+			<li>
+               <capacity>Eating</capacity>
+               <offset>0.2</offset>
+            </li>
+			
+			
+			<li>
+               <capacity>Hearing</capacity>
+               <offset>0.3</offset>
+            </li>
+			
+			<li>
+               <capacity>Talking</capacity>
+               <offset>0.3</offset>
+            </li>
+			
+			<li>
+               <capacity>Sight</capacity>
+               <offset>0.3</offset>
+            </li>
+			
+			 <li>
+				<painFactor>0.9</painFactor>
+			</li>
+			
+			<li>
+               <capacity>Consciousness</capacity>
+               <offset>-0.05</offset>
+            </li>
+					
+           </capMods>
+		   
+		   
+		   	   <comps>
+         <li>
+            <compClass>HediffComp_VerbGiver</compClass>
+            <verbs>
+               <li>
+                  <verbClass>Verb_MeleeAttack</verbClass>
+                  <defaultCooldownTicks>90</defaultCooldownTicks>
+                  <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
+                  <meleeDamageDef>Blunt</meleeDamageDef>
+               </li>
+            </verbs>
+         </li>
+      </comps>
+		   
+		   
+		   
+			 
+      </stages>
+   </HediffDef>
+   
+  -->   
+   
+  
 
    
 </Defs>

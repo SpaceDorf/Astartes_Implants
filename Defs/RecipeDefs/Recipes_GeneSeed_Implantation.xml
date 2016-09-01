@@ -1,5 +1,133 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <RecipeDefs>
+
+
+<RecipeDef Abstract="True" Name="SurgeryFlesh">
+		<effectWorking>Surgery</effectWorking>
+		<soundWorking>Recipe_Surgery</soundWorking>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<workSkill>Medicine</workSkill>
+		<workSkillLearnFactor>16</workSkillLearnFactor>
+</RecipeDef>
+
+
+<RecipeDef  Abstract="True" Name="ImplantGeneSeedPart" ParentName="SurgeryFlesh">    
+  <surgeonSurgerySuccessChanceExponent>0.5</surgeonSurgerySuccessChanceExponent>          
+  <roomSurgerySuccessChanceFactorExponent>0.5</roomSurgerySuccessChanceFactorExponent>
+  <surgerySuccessChanceFactor>0.95</surgerySuccessChanceFactor>
+  <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+  <workAmount>2000</workAmount>
+  <recipeUsers>
+    <li>Human</li>
+  </recipeUsers>
+  <skillRequirements>
+    <li>
+      <skill>Medicine</skill>
+      <minLevel>1</minLevel>
+    </li>
+  </skillRequirements>
+</RecipeDef>
+
+
+  
+
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallLymansEar</defName>
+		<label>Install Astartes lyman's Ear</label>
+		<description>Installs the Lyman's Ear in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Lyman's Ear.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LymansEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>LymansEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>RightEar</li>
+			<li>LeftEar</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>LymansEar</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+	
+	
+	<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallLymansEar</defName>
+		<label>install Astartes lyman's ear</label>
+		<description>Installs the Lyman's Ear in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Lyman's Ear.</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>LymansEar</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>LymansEar</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>RightEar</li>
+			<li>LeftEar</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>LymansEar</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+		</recipeUsers>
+	</RecipeDef>
+	
+	
+
+
+
+  
+
 
 							
 </RecipeDefs>
