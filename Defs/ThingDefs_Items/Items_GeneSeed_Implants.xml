@@ -357,8 +357,8 @@ The efficiency of different Chapters’ Progenoid gene-seed also varies, so some C
     
 <ThingDef ParentName="BodyPartAstartesImplantBase">
 	  
-	  <defName>Progenoid</defName>
-      <label>progenoid</label>
+	  <defName>progenoid</defName>
+      <label>Progenoid</label>
       <description>A pair of glands called Progenoids are implanted, one in the neck and the other deep in the chest cavity. These glands are vitally important to the very survival of the Space Marine’s Chapter. Each organ grows within the Space Marine, absorbing hormonal stimuli and genetic material from the other implants. After five years, the neck gland is mature and ready for removal. After ten years, the chest gland becomes mature and is also ready to be removed. A gland may be removed any time after it has matured, and it represents the Chapter’s only source of geneseed. When mature, each organ contains a single gene-seed corresponding to each zygote implanted into the recipient. Once removed by surgery, the Progenoid must be carefully prepared, its individual gene-seeds checked for mutation, and sound gene-seeds stored. It is not possible to create a zygote in any other way. Each Chapter’s stock of gene-seed is therefore unique to itself. Gene-seed has a great deal of religious significance to a Chapter, representing its identity and future. Without gene-seed, a Chapter has no future. The extinction of a type of gene-seed means that a zygote has been lost forever. The extinction of the Progenoid gene-seed itself would effectively mean the end to a Chapter.</description>
 
       <statBases>

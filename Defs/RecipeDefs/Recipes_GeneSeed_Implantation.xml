@@ -243,7 +243,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Haemastamen</li>
+						<li>LarramansOrgan</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -254,14 +254,14 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>Haemastamen</li>
+				<li>LarramansOrgan</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>HaemastamenPlaceHolder</li>
+			<li>LarramansOrganPlaceHolder</li>
 
 		</appliedOnFixedBodyParts>
-		<addsHediff>haemastamen</addsHediff>
+		<addsHediff>LarramansOrgan</addsHediff>
 		<recipeUsers>
 			<li>Human</li>
 
@@ -859,7 +859,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Progenoid</li>
+						<li>progenoid</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -870,7 +870,7 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>Progenoid</li>
+				<li>progenoid</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
