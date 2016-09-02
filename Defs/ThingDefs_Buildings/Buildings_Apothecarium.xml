@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+
+  <ThingDef Name="BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>BuildingRubble</filthLeaving>
+  </ThingDef>
+
+  
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>apothecarium</defName>
+    <label>Apothecarium</label>
+    <graphicData>
+      <texPath>Things/Building/DermalRegeneratorAlt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawsize>3,3</drawsize>
+    </graphicData>
+    <thingClass>Building_WorkTable</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <Passability>Impassable</Passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <WorkToMake>3200</WorkToMake>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+	  <Beauty>15</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+     <Description>Within this divine Contraption your Apothecaries and Techmarines cultivate the Geneseed of your Chapter and forge the mystical Organs that turn mortals into Space Marines</Description>
+    <size>(3,3)</size>
+    <designationCategory>Production</designationCategory>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-2)</interactionCellOffset>
+    <rotatable>false</rotatable>
+	<surfaceType>Item</surfaceType>
+    <costList>
+ 	 <BlocksMarble>120</BlocksMarble>
+	 <Plasteel>50</Plasteel>
+	 <Gold>50</Gold>
+	 <Silver>50</Silver>
+     <Steel>100</Steel>
+    </costList>
+	<recipes>
+		<li>AP_Heart</li>
+	</recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+	<building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+  
+	
+    <killedLeavings>
+      <ChunkSlagSteel>1</ChunkSlagSteel>
+    </killedLeavings>
+    <filthLeaving>BuildingRubble</filthLeaving>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.66</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>600</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <staticSunShadowHeight>1.0</staticSunShadowHeight>
+  </ThingDef>
+  
+  
+  <!--
+
+  <ThingDef ParentName="BuildingBase">
+    <DefName>apothecarium</DefName>
+    <label>Apothecarium</label>
+    <ThingClass>Building_WorkTable</ThingClass>
+    <Description>Within this divine Contraption your Apothecaries and Techmarines cultivate the Geneseed of your Chapter and forge the mystical Organs that turn mortals into Space Marines</Description>
+    <graphicData>
+      <texPath>Things/Building/DermalRegeneratorAlt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,3)</drawSize>
+ 
+    </graphicData>
+    
+    <CostList>
+	 <BlocksMarble>120</BlocksMarble>
+	 <Plasteel>50</Plasteel>
+	 <Gold>50</Gold>
+	 <Silver>50</Silver>
+     <Steel>100</Steel>
+    </CostList>
+ 
+    <AltitudeLayer>Building</AltitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToMake>3500</WorkToMake>
+      <MaxHitPoints>280</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <Size>(3,3)</Size>
+    <DesignationCategory>Production</DesignationCategory>
+    <Passability>Impassable</Passability>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,0)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+	<recipes>
+		<li>AP_Heart</li>
+
+	</recipes>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>      
+    </building>
+    <comps>
+    <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+	  <li>ClothingDye</li>
+    </researchPrerequisites> 
+  </ThingDef> -->
+
+</ThingDefs>

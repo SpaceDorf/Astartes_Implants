@@ -2,6 +2,40 @@
 <RecipeDefs>
 
 
+	<RecipeDef Name="AP_RecipeRoot" Abstract="True">
+		<workAmount>3500</workAmount>
+		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+		<effectWorking>Surgery</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_Heart</defName>
+		<label>Forge Second Heart</label>
+		<description>Forge a Second Heart Implant from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Second Heart</jobString>
+		<products>
+			<SecondHeart>1</SecondHeart>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>
+	
+
+	
 
 
 </RecipeDefs>

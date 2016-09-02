@@ -6,7 +6,7 @@
   <!-- Definition of the GeneSeed -->
 
   <ThingDef ParentName="ResourceBase">
-    <defName>Geneseed</defName>
+    <defName>GeneSeedZyg</defName>
     <label>Geneseed Zygote</label>
       <description>The Geneseed of your Chapter. It dates back to the Primarch of your Parent Chapter</description>
     <graphicData>

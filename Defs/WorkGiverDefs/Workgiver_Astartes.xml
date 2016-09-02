@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<WorkGivers>
+
+   <WorkGiverDef>
+    <defName>DoBillsapothecarium</defName>
+	<label>Grow Geneseed Implants</label>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Doctor</workType>
+    <priorityInType>130</priorityInType>
+    <fixedBillGiverDefs>
+	  <li>apothecarium</li>
+	</fixedBillGiverDefs>
+    <verb>create</verb>
+    <gerund>creating</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+   
+
+</WorkGivers>
