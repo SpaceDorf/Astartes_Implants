@@ -15,20 +15,16 @@ Following Parts are added to the Game:
 
 * An Event that grants you your first Geneseed.
 * The Geneseed which is used to create the Implants for your Space Marines
-* The 19 Implants of a Space Marine
-* The Geneseed Vat to create the Implants
+* The 19 Implants of a Space Marine ( done ) 
+* The Apothecarium to grow the Implants for your Space Marines
 
 
 To create and install the Implants a medicine skill of at least 15 is required. 
 All Implants can only be created at the Geneseed Vat. True to the Warhammer40000 Lore there is no other way to gain Geneseed than to harvest it from your Space Marines.
 All Implants are self-healing, but cannot be removed once they are placed in a recipient. If they get destroyed, they have to be replaced. 
 
-planned - research and maintenance of the implants
-Lore based restrictions for creating a space marine
-chemicals to activate/deactivate certain implants, as in lore. 
 
-
-	v0.00002
+	v0.04
 	Included
 	The ThingDefs for the 19 Implants
 	A Recipe
