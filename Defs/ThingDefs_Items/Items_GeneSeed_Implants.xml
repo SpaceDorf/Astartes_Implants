@@ -329,7 +329,7 @@ A Space Marine imprisoned behind iron bars could easily chew his way out given a
 <ThingDef ParentName="BodyPartAstartesImplantBase">
 	  
 	  <defName>BetchersGlands</defName>
-      <label>betcher's glands</label>
+      <label>Betcher's Glands</label>
       <description>These are placed into the lower lip, alongside the salivary glands or into the hard palette. The Betcher’s Gland works in a similar way to the poison gland of venomous reptiles by synthesising and storing deadly poison. Space Marines are rendered immune to this poison by virtue of the gland’s presence. The gland allows the Space Marine to spit a blinding contact poison, which is also highly corrosive. A Space Marine imprisoned behind iron bars could easily chew his way out given a few hours.</description>
 
       <statBases>
@@ -378,7 +378,7 @@ Without the benefit of the Black Carapace, a Space Marine’s power armour would b
 <ThingDef ParentName="BodyPartAstartesImplantBase">
 	  
 	  <defName>BlackCarpace</defName>
-      <label>black carpace</label>
+      <label>Black Carpace</label>
       <description>The final and the most distinctive implant is the Black Carapace, which cannot be implanted beyond the age of eighteen. This looks like a film of black plastic when growing in the tanks. This is removed from its culture-solution and cut into sheets, which are implanted directly beneath the skin of the recipient’s torso. Within a few hours, the tissue expands, hardens on the outside, and sends invasive neural bundles deep inside the subject. After several months, the recipient is fitted with neural sensors and transfusion points, cut into the hardened carapace. These artificial interface points mesh with features integral to the power armour, such as the monitoring, medicinal, and maintenance units. Without the benefit of the Black Carapace, a Space Marine’s power armour would be far less effective</description>
 
       <statBases>

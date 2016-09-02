@@ -57,17 +57,152 @@
 			</li>	 
 		</stages>
 	</HediffDef>
-
 	
 	
 	<!-- 3.  -->	
+	
+		
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>biscorpea</defName>
+		<label>Biscorpea</label>
+		<spawnThingOnRemoved>Biscorpea</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+	
+	
+	<!-- 4.  -->	
+	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>haemastamen</defName>
+		<label>Haemastamen</label>
+		<spawnThingOnRemoved>Haemastamen</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+	
 	<!-- 5.  -->	
+		
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>Larraman's Organ</defName>
+		<label>LarramansOrgan</label>
+		<spawnThingOnRemoved>LarramansOrgan</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+	
+	
+	
 	<!-- 6.  -->	
+	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>CatalepseanNode</defName>
+		<label>Catalepsean Node</label>
+		<spawnThingOnRemoved>CatalepseanNode</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+	
 	<!-- 7.  -->	
+		
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>preomnor</defName>
+		<label>Preomnor</label>
+		<spawnThingOnRemoved>Preomnor</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+
+	
 	<!-- 8.  -->	
+			
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>omophagea</defName>
+		<label>Omophagea</label>
+		<spawnThingOnRemoved>Omophagea</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+	
 	<!-- 9.  -->	
+	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>MultiLung</defName>
+		<label>Multi-Lung</label>
+		<spawnThingOnRemoved>Multi-Lung</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+		
+	
+	
 	<!-- 10.  -->	
 	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>occulobe</defName>
+		<label>Occulobe</label>
+		<spawnThingOnRemoved>Occulobe</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+	
+
 	
 	<!-- 11. Lymans Ear -->	
 
@@ -93,8 +228,41 @@
 	</HediffDef>
 	
 	
-	<!-- 12.  -->	
+	<!-- 12.  -->		
+		
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>SusanMembrane</defName>
+		<label>Sus-An Membrane</label>
+		<spawnThingOnRemoved>SusanMembrane</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+	
+	
 	<!-- 13.  -->	
+		
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>MelanchromicOrgan</defName>
+		<label>Melanchromic Organ</label>
+		<spawnThingOnRemoved>Melanchromic Organ</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+			
 	
 
 	<!-- 14. Oolitic Kidney -->	
@@ -120,10 +288,89 @@
 	</HediffDef>
 	
    	<!-- 15.  -->	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>neuroglottis</defName>
+		<label>Neuroglottis</label>
+		<spawnThingOnRemoved>Neuroglottis</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+		
+			</li>	 
+		</stages>
+	</HediffDef>	
+	
 	<!-- 16.  -->	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>mucranoid</defName>
+		<label>Mucranoid</label>
+		<spawnThingOnRemoved>Mucranoid</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+		
+			</li>	 
+		</stages>
+	</HediffDef>	
+	
 	<!-- 17.  -->	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>BetchersGlands</defName>
+		<label>Betcher's Glands</label>
+		<spawnThingOnRemoved>BetchersGlands</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+		
+			</li>	 
+		</stages>
+	</HediffDef>			
+
+	
 	<!-- 18.  -->	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>progenoids</defName>
+		<label>Progenoids</label>
+		<spawnThingOnRemoved>Progenoids</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+		
+			</li>	 
+		</stages>
+	</HediffDef>	
+	
+	
+	
 	<!-- 19.  -->	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>BlackCarpace</defName>
+		<label>Black Carpace</label>
+		<spawnThingOnRemoved>Black Carpace</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+		
+			</li>	 
+		</stages>
+	</HediffDef>	
+	
+
    
    
    <!-- Astartes Implants, new Bodyparts -->

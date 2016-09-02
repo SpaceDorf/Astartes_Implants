@@ -83,9 +83,431 @@
 	
 <!-- 2. Ossmodula -->
 
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallOssmodula</defName>
+		<label>Install Astartes Ossmodula</label>
+		<description>Installs the Ossmodula in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Second Heart</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Ossmodula</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Ossmodula</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>OssmodulaPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>ossmodula</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+<!-- 3. Biscorpea -->
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallBiscorpea</defName>
+		<label>Install Astartes Biscorpea</label>
+		<description>Installs the Biscorpea in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Second Heart</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Biscorpea</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Biscorpea</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>BiscorpeaPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>biscorpea</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+
+<!-- 4. Haemastamen -->
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallHaemastamen</defName>
+		<label>Install Astartes Haemastamen</label>
+		<description>Installs the Haemastamen in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Haemastamen</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Haemastamen</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Haemastamen</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>HaemastamenPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>haemastamen</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+	
+
+<!-- 5. Larraman's Organ -->
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallLarramansOrgan</defName>
+		<label>Install Astartes Larraman's Organ</label>
+		<description>Installs the Larraman's Organ in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Larraman's Organ</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Haemastamen</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Haemastamen</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>HaemastamenPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>haemastamen</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
 
 
 
+<!-- 6. Catalepsean Node-->
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallCatalepseanNode</defName>
+		<label>Install Astartes Catalepsean Node</label>
+		<description>Installs the Catalepsean Node in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Catalepsean Node</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CatalepseanNode</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>CatalepseanNode</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>CatalepseanNodePlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>CatalepseanNode</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+	
+
+<!-- 7. Preomnor-->
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallPreomnor</defName>
+		<label>Install Astartes Preomnor</label>
+		<description>Installs the Preomnor in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Preomnor</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Preomnor</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Preomnor</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>PreomnorNodePlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>preomnor</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+	
+
+
+<!-- 8.  Omophagea-->
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallOmophagea</defName>
+		<label>Install Astartes Omophagea</label>
+		<description>Installs the Omophagea in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Omophagea</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Omophagea</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Omophagea</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>OmophageaNodePlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>omophagea</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+
+<!-- 9.  MultiLung-->
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallMultiLung</defName>
+		<label>Install Astartes Multi-Lung</label>
+		<description>Installs the Multi-Lung in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Multi-Lung</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MultiLung</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MultiLung</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>MultiLungPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>MultiLung</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+
+<!-- 10.  Occulobe-->
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallOcculobe</defName>
+		<label>Install Astartes Occulobe</label>
+		<description>Installs the Occulobe in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Occulobe</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Occulobe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Occulobe</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>OcculobePlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>occulobe</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+
+	
   
 <!-- 11. Lymans Ear -->
 
@@ -132,8 +554,100 @@
 	<!--		<li>Astartes</li>		-->
 		</recipeUsers>
 	</RecipeDef>
+	
+	
+<!-- 12.  Occulobe-->
 
-	   
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallSusanMembrane</defName>
+		<label>Install Astartes Sus-An Membrane</label>
+		<description>Installs the Sus-An Membrane in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Sus-An Membrane</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SusanMembrane</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SusanMembrane</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>SusanMembranePlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>SusanMembrane</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+<!-- 13. MelanchromicOrgan -->	
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallMelanchromicOrgan</defName>
+		<label>Install Astartes Melanchromic Organ</label>
+		<description>Installs the Melanchromic Organ in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Melanchromic Organ</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MelanchromicOrgan</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>MelanchromicOrgan</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>MelanchromicOrganPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>MelanchromicOrgan</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
 	
 <!-- 14. Oolitic Kidney -->	
 	
@@ -181,9 +695,244 @@
 	</RecipeDef>
 	
 	
+<!-- 15. Neuroglottis -->	
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallNeuroglottis</defName>
+		<label>Install Astartes Neuroglottis</label>
+		<description>Installs the Neuroglottis in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Neuroglottis</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neuroglottis</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Neuroglottis</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>NeuroglottisPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>neuroglottis</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+	
+<!-- 16. Mucranoid -->	
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallMucranoid</defName>
+		<label>Install Astartes Mucranoid</label>
+		<description>Installs the Mucranoid in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Mucranoid</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Mucranoid</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Mucranoid</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>MucranoidPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>mucranoid</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
 
 
+	
+<!-- 17. Betchers Glands -->	
 
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>BetchersGlands</defName>
+		<label>Install Astartes Betcher's Glands</label>
+		<description>Installs the Betcher's Glands in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Betcher's Glands</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BetchersGlands</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BetchersGlands</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>BetchersGlandsPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>BetchersGlands</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+	
+	
+<!-- 18. Progenoids -->	
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>Progenoids</defName>
+		<label>Install Astartes Progenoids</label>
+		<description>Installs the Progenoids in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Progenoids</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Progenoids</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>Progenoids</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ProgenoidsPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>progenoids</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+	
+	
+<!-- 19. Black Carpace -->	
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>BlackCarpace</defName>
+		<label>Install Astartes Black Carpace</label>
+		<description>Installs the Black Carpace in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Black Carpace</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>BlackCarpace</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>BlackCarpace</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>ProgenoidsPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>blackCarpace</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+  
   
 
 
