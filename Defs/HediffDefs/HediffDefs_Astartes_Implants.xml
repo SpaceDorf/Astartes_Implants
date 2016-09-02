@@ -98,8 +98,8 @@
 	<!-- 5.  -->	
 		
 	<HediffDef ParentName="addedAstartesImplant">
-		<defName>Larraman's Organ</defName>
-		<label>LarramansOrgan</label>
+		<defName>LarramansOrgan</defName>
+		<label>Larraman's Organ</label>
 		<spawnThingOnRemoved>LarramansOrgan</spawnThingOnRemoved>
 		<addedPartProps>
 			<partEfficiency>1.0</partEfficiency>
