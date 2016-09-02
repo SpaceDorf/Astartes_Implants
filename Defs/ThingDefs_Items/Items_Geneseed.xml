@@ -2,47 +2,33 @@
 
 <Resources> 
 
+  
+  <!-- Definition of the GeneSeed -->
+
   <ThingDef ParentName="ResourceBase">
     <defName>Geneseed</defName>
-    <label>geneseed</label>
-    <description>The Geneseed of your Chapter. It dates back to the Primarch of your Parent Chapter</description>
+    <label>Geneseed Zygote</label>
+      <description>The Geneseed of your Chapter. It dates back to the Primarch of your Parent Chapter</description>
     <graphicData>
-      <texPath>Things/Item/Resource/geneseed</texPath>
+     <texPath>Things/Item/Resource/geneseed</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
-    <soundInteract>Silver_Drop</soundInteract>
-    <soundDrop>Silver_Drop</soundDrop>
-    <useHitPoints>false</useHitPoints>
-    <statBases>
-      <MarketValue>1.0</MarketValue>
-      <SharpDamageMultiplier>1.0</SharpDamageMultiplier>
-      <BluntDamageMultiplier>1.0</BluntDamageMultiplier>
-    </statBases>
-    <thingCategories>
-      <li>ResourcesRaw</li>
-    </thingCategories>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
     <stackLimit>50</stackLimit>
-    <stuffProps>
-      <stuffAdjective>geneseed</stuffAdjective>
-      <categories>
-        <li>Metallic</li>
-      </categories>
-      <color>(78,157,158)</color>
-      <constructEffect>ConstructMetal</constructEffect>
-      <soundImpactStuff>BulletImpactMetal</soundImpactStuff>
-      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
-      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
-      <statOffsets>
-        <Beauty>0</Beauty>
-      </statOffsets>
-      <statFactors>
-        <MaxHitPoints>50</MaxHitPoints>
-        <Flammability>0.0</Flammability>
-        <Beauty>0</Beauty>
-        <WorkToMake>1.0</WorkToMake>
-        <MeleeWeapon_Cooldown>1</MeleeWeapon_Cooldown>
-      </statFactors>
-    </stuffProps>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>0</MarketValue>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
   </ThingDef>
+  
+  
+
+
 
 </Resources>

@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ThingDefs>
-      
+   
+
+
+
+
+<!--
+
+Definition of the Implants
+
+-->
+   
 	 
 	 
   <ThingDef Name="AstartesImplantBase" Abstract="True">
@@ -37,6 +47,30 @@
     </graphicData>
   </ThingDef>
 	  
+	  
+	 
+	  
+
+  <ThingDef Name="GeneSeedBase" Abstract="True">
+    <label>body part</label>
+    <thingClass>Thing</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <isBodyPartOrImplant>false</isBodyPartOrImplant>
+     <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <pathCost>10</pathCost>
+  </ThingDef>
+
 	  
 	  
 	  

@@ -7,10 +7,5 @@
     		<parent>BodyPartsArtificial</parent>
     	</ThingCategoryDef>
 
-        <ThingCategoryDef>
-            <defName>GeneSeed_Zygote</defName>
-            <label>Geneseed Zygote</label>
-            <parent>EggsUnfertilized</parent>
-        </ThingCategoryDef>
 		  
 </ThingCategoryDefs>
