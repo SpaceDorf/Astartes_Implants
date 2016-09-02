@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<BodyPartDefs>
+ 
+ 
+ <!-- 1 Second Heart
+ 	<li>
+          <def>secondHeart</def>
+          <coverage>0.015</coverage>
+          <depth>Inside</depth>
+          <groups>
+            <li>Torso</li>
+          </groups>
+        </li>
+	-->
+
+  <BodyPartDef>
+    <defName>SecondHeart</defName>
+    <label>Second Heart</label>
+    <hitPoints>25</hitPoints>
+
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.5</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    <activities>
+      <li>BloodPumping</li>
+    </activities>
+    <spawnThingOnRemoved>SecondHeart</spawnThingOnRemoved>
+    <dontSuggestAmputation>true</dontSuggestAmputation>
+   </BodyPartDef>
+
+	
+
+ 
+ 
+ 
+ <!-- 11 -->
+  <BodyPartDef>
+    <defName>LeftLymansEar</defName>
+    <label>left Lyman's Ear</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>1</frostbiteVulnerability>
+    <oldInjuryBaseChance>0.06</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <activities>
+      <li>Hearing_source</li>
+    </activities>
+    <spawnThingOnRemoved>LymansEar</spawnThingOnRemoved>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+
+  <BodyPartDef>
+    <defName>RightLymansEar</defName>
+    <label>right Lyman's Ear</label>
+    <hitPoints>15</hitPoints>
+    <frostbiteVulnerability>5</frostbiteVulnerability>
+    <oldInjuryBaseChance>0.06</oldInjuryBaseChance>
+    <skinCovered>true</skinCovered>
+    <beautyRelated>true</beautyRelated>
+    <activities>
+      <li>Hearing_source</li>
+    </activities>
+    <spawnThingOnRemoved>LymansEar</spawnThingOnRemoved>
+	<dontSuggestAmputation>true</dontSuggestAmputation>
+  </BodyPartDef>
+
+  
+  <!--
+    <BodyPartDef>
+    <defName>Stomach</defName>
+    <label>stomach</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.4</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    <activities>
+      <li>Eating_digestion</li>
+    </activities>
+    <spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
+  </BodyPartDef>
+ -->
+ 
+
+  <BodyPartDef>
+    <defName>EnforcedRibcage</defName>
+    <label>Enforce Ribcage</label>
+    <hitPoints>110</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <skinCovered>false</skinCovered>
+    <isSolid>true</isSolid>
+  </BodyPartDef>
+
+</BodyPartDefs>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<BodyPartDefs>
+ 
+ <!-- 1 Placeholder Second Heart -->
+ 
+  
+   <BodyPartDef>
+    <defName>SecondHeartPlaceHolder</defName>
+    <label>Second Heart</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+ 
+<!-- 2 --> 
+ 
+    <BodyPartDef>
+    <defName>OssmodulaPlaceHolder</defName>
+    <label>Ossmodula</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+ 
+ 
+<!-- 3.  -->	
+ 
+    <BodyPartDef>
+    <defName>BiscorpeaPlaceHolder</defName>
+    <label>Biscorpea</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+
+<!-- 4. -->
+    <BodyPartDef>
+    <defName>HaemastamenPlaceHolder</defName>
+    <label>Haemastamen</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+
+
+	<!-- 5.  -->	
+	
+	    <BodyPartDef>
+    <defName>LarramansOrganPlaceHolder</defName>
+    <label>Larramans Organ</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+	
+
+	<!-- 6.  -->	
+	
+	<BodyPartDef>
+    <defName>CatalepseanNodePlaceHolder</defName>
+    <label>Catalepsean Node</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+	
+
+	<!-- 7.  -->	
+	<BodyPartDef>
+    <defName>PreomnorPlaceHolder</defName>
+    <label>Preomnor</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+	
+	<!-- 8.  -->	
+	<BodyPartDef>
+    <defName>OmophageaPlaceHolder</defName>
+    <label>Omophagea</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>	
+	
+	
+
+	<!-- 9.  -->	
+	<BodyPartDef>
+    <defName>MultiLungPlaceHolder</defName>
+    <label>MultiLung</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>		
+	
+
+	<!-- 10.  -->	
+	<BodyPartDef>
+    <defName>OcculobePlaceHolder</defName>
+    <label>Occulobe</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>		
+	
+	<!-- 11. Lyman Ears -->
+	
+	<!-- 12.  -->	
+	<BodyPartDef>
+    <defName>SusanMembranePlaceHolder</defName>
+    <label>Sus-An Membran</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>			
+	
+	<!-- 13.  -->	
+	<BodyPartDef>
+    <defName>MelanchromicOrganPlaceHolder</defName>
+    <label>Melanchromic Organ</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>		
+	
+	<!-- 14. Oolitic Kidney -->	
+	
+	<!-- 15.  -->	
+	<BodyPartDef>
+    <defName>NeuroglottisPlaceHolder</defName>
+    <label>Neuroglottis</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>	
+	
+	<!-- 16.  -->	
+	<BodyPartDef>
+    <defName>MucranoidPlaceHolder</defName>
+    <label>Mucranoid</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>		
+	
+	
+	<!-- 17.  -->	
+	<BodyPartDef>
+    <defName>BetchersGlandsPlaceHolder</defName>
+    <label>Betchers Glands</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>	
+	
+	<!-- 18.  -->	
+	
+	<BodyPartDef>
+    <defName>ProgenoidPlaceHolder</defName>
+    <label>Progenoid</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>	
+	
+	<!-- 19.  -->	
+	
+	<BodyPartDef>
+    <defName>BlackCarpacePlaceHolder</defName>
+    <label>Black Carpace</label>
+    <hitPoints>1</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>		
+
+ 
+  
+</BodyPartDefs>

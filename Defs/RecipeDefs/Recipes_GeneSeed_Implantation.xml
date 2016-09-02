@@ -30,15 +30,71 @@
 </RecipeDef>
 
 
-  
 
+
+
+<!-- 1. Second Heart -->
+
+<RecipeDef ParentName="ImplantGeneSeedPart">
+		<defName>InstallSecondHeart</defName>
+		<label>Install Astartes Second Heart</label>
+		<description>Installs the Second Heart in your Neophyte.</description>
+		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+		<jobString>Installing Second Heart</jobString>
+		<workAmount>2000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Medicine</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SecondHeart</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Medicine</li>
+			</categories>
+			<thingDefs>
+				<li>SecondHeart</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<appliedOnFixedBodyParts>
+			<li>SecondHeartPlaceHolder</li>
+
+		</appliedOnFixedBodyParts>
+		<addsHediff>SecondHeart</addsHediff>
+		<recipeUsers>
+			<li>Human</li>
+
+		</recipeUsers>
+	</RecipeDef>
+
+	
+	
+<!-- 2. Ossmodula -->
+
+
+
+
+  
+<!-- 11. Lymans Ear -->
 
 <RecipeDef ParentName="ImplantGeneSeedPart">
 		<defName>InstallLymansEar</defName>
 		<label>Install Astartes lyman's Ear</label>
 		<description>Installs the Lyman's Ear in your Neophyte.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing Lyman's Ear.</jobString>
+		<jobString>Installing Lyman's Ear</jobString>
 		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
@@ -73,18 +129,20 @@
 		<addsHediff>LymansEar</addsHediff>
 		<recipeUsers>
 			<li>Human</li>
+	<!--		<li>Astartes</li>		-->
 		</recipeUsers>
 	</RecipeDef>
+
+	   
 	
-	
-	
+<!-- 14. Oolitic Kidney -->	
 	
 	<RecipeDef ParentName="ImplantGeneSeedPart">
-		<defName>InstallLymansEar</defName>
-		<label>install Astartes lyman's ear</label>
-		<description>Installs the Lyman's Ear in your Neophyte.</description>
+		<defName>InstallOoliticKidney</defName>
+		<label>Install Astartes Oolitic Kidney</label>
+		<description>Installs the Oolitic Kidney in your Neophyte</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
-		<jobString>Installing Lyman's Ear.</jobString>
+		<jobString>Installing Oolitic Kidney.</jobString>
 		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
@@ -98,7 +156,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>LymansEar</li>
+						<li>OoliticKidney</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -109,16 +167,16 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>LymansEar</li>
+				<li>OoliticKidney</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>RightEar</li>
-			<li>LeftEar</li>
+			<li>RightKidney</li>
 		</appliedOnFixedBodyParts>
-		<addsHediff>LymansEar</addsHediff>
+		<addsHediff>OoliticKidney</addsHediff>
 		<recipeUsers>
 			<li>Human</li>
+	<!--		<li>Astartes</li>		-->
 		</recipeUsers>
 	</RecipeDef>
 	

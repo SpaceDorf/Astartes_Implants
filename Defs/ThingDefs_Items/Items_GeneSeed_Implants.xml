@@ -124,9 +124,8 @@ exposed wound area. This process is almost instantaneous, and it can appear to t
   
   <ThingDef ParentName="BodyPartAstartesImplantBase">
     <defName>LarramansOrgan</defName>
-    <label>larraman's organ</label>
+    <label>Larraman's Organ</label>
     <description>This liver-shaped, dark, fleshy organ is implanted into the chest cavity along with a complicated array of blood vessels. The organ generates and stores special Larraman cells. If the recipient is wounded, these cells are released into the bloodstream, where they latch onto leucocytes in the blood and are transported to the site of the wound. Once outside the body, the Larraman cells form a skin substitute of instant scar tissue, staunching the flow of blood and protecting any exposed wound area. This process is almost instantaneous, and it can appear to the onlooker as if the blood is frozen solid even before it hits the ground.</description>
-
     <statBases>
       <MarketValue>0</MarketValue>
     </statBases>
@@ -142,7 +141,7 @@ allowing awareness of the environment whilst resting.
 
   <ThingDef ParentName="BodyPartAstartesImplantBase">
     <defName>CatalepseanNode</defName>
-    <label>catalepsean node</label>
+    <label>Catalepsean Node</label>
     <description>The Catalepsean Node is a brain implant usually inserted into the back of the skull via a hole drilled into the occipital bone. The pea-sized organ influences the circadian rhythms of sleep and the body’s response to sleep deprivation. Normally, a Space Marine sleeps like any normal man, but if deprived of it, the Catalepsean Node becomes active. The recipient is capable of sleeping and remaining awake at the same time by switching off areas of the brain sequentially. This process cannot replace normal sleep entirely, but it increases a Space Marine’s survivability by allowing awareness of the environment whilst resting.</description>
 
     <statBases>
@@ -150,7 +149,7 @@ allowing awareness of the environment whilst resting.
     </statBases>
   </ThingDef>
 
-<!-- 7.) Preomnor organzid
+<!-- 7.) Preomnor 
 The next three phases of the process, the implantation of the Preomnor, Omophagea and Multi-lung are often undertaken at the same time, between the ages of fourteen and sixteen. 
 The Preomnor is a large implant which fits into the chest cavity. It is a pre-digestive stomach which allows the recipient to eat a variety of otherwise poisonous or indigestible materials. 
 No actual digestion tales place in the Preomnor. Instead, individual sensory tubes assess potential poisons and neutralise them or, where necessary, isolate the Preomnor from the rest of the 
@@ -193,7 +192,7 @@ The third organ implanted at this time is the Multi-lung. This large, tubular, g
 -->   
    <ThingDef ParentName="BodyPartAstartesImplantBase">
       <defName>MultiLung</defName>
-      <label>multi-lung</label>
+      <label>Multi-Lung</label>
       <description>This large, tubular, grey organ is sometimes called the ‘third lung’. Blood is pumped through the organ via connecting vessels grafted onto the recipient’s pulmonary system. Atmosphere is taken in by means of a sphincter located in the trachea. In toxic atmospheres, an associated sphincter muscle closes the trachea and restricts normal breathing, thus protecting the lungs. The Multi-lung is able to absorb oxygen from poorly oxygenated or poisonous air without suffering damage thanks to its own efficient toxin dispersal, neutralisation, and regeneration systems.</description>
 
       <statBases>
@@ -209,7 +208,7 @@ the light-receptive retinal cells. A Space Marine has far better eyesight than a
 
    <ThingDef ParentName="BodyPartAstartesImplantBase">
       <defName>Occulobe</defName>
-      <label>occulobe</label>
+      <label>Occulobe</label>
       <description>This small slug-like organ sits at the base of the brain. It provides the hormonal and genetic stimuli which enable a Space Marine’s eyes to respond to optic-therapy. The Occulobe does not in itself improve a Space Marine’s eyesight, but it allows technicians to make adjustments to the growth patterns of the eye and the light-receptive retinal cells. A Space Marine has far better eyesight than a normal human, and can see in low light conditions almost as well as in daylight.</description>
 
       <statBases>
@@ -279,7 +278,7 @@ blood is circulated at high speed. This enables a Space Marine to survive poison
       <ThingDef ParentName="BodyPartAstartesImplantBase">
 	  
 	  <defName>OoliticKidney</defName>
-      <label>oolitic kidney</label>
+      <label>Oolitic Kidney</label>
       <description>The Oolitic Kidney is red-brown and heart-shaped and improves and modifies the Space Marine’s circulatory system, enabling other implants to function effectively. The Oolitic Kidney also filters blood extremely efficiently and quickly. The Secondary Heart and Oolitic Kidney are able to act together, performing an emergency detoxification function in which the Space Marine is rendered unconscious as his blood is circulated at high speed. This enables a Space Marine to survive poisons and gases which are otherwise too much for even the multi-lung to cope with.</description>
 
       <statBases>

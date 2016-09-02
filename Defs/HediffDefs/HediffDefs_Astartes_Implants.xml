@@ -11,12 +11,72 @@
 
 
 	<!-- Added body parts -->
+	
+	
+	
+	<!-- 1. Second Heart -->
+	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>SecondHeart</defName>
+		<label>Second Heart</label>
+		<spawnThingOnRemoved>SecondHeart</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+					 <capacity>BloodPumping</capacity>
+					 <offset>0.5</offset>
+					</li>
+					<li>
+					<capacity>Metabolism</capacity>
+					<offset>0.2</offset>
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+	</HediffDef>
+	
+	
+	<!-- 2.  -->	
+	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>ossmodula</defName>
+		<label>Ossmodula</label>
+		<spawnThingOnRemoved>Ossmodula</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+
+			</li>	 
+		</stages>
+	</HediffDef>
+
+	
+	
+	<!-- 3.  -->	
+	<!-- 5.  -->	
+	<!-- 6.  -->	
+	<!-- 7.  -->	
+	<!-- 8.  -->	
+	<!-- 9.  -->	
+	<!-- 10.  -->	
+	
+	
+	<!-- 11. Lymans Ear -->	
 
 	<HediffDef ParentName="addedAstartesImplant">
 		<defName>LymansEar</defName>
-		<label>lyman's ear</label>
+		<label>Lyman's Ear</label>
 		<spawnThingOnRemoved>LymansEar</spawnThingOnRemoved>
 		<addedPartProps>
+					
 			<partEfficiency>1.0</partEfficiency>
 			<isSolid>true</isSolid>
 		</addedPartProps>
@@ -31,10 +91,40 @@
 			</li>	 
 		</stages>
 	</HediffDef>
+	
+	
+	<!-- 12.  -->	
+	<!-- 13.  -->	
+	
 
+	<!-- 14. Oolitic Kidney -->	
 	
+	<HediffDef ParentName="addedAstartesImplant">
+		<defName>OoliticKidney</defName>
+		<label>Oolitic Kidney</label>
+		<spawnThingOnRemoved>OoliticKidney</spawnThingOnRemoved>
+		<addedPartProps>
+			<partEfficiency>1.0</partEfficiency>
+			<isSolid>true</isSolid>
+		</addedPartProps>
+		<stages>
+			<li>
+				<capMods>
+					<li>
+					  <capacity>BloodFiltration</capacity>
+					  <offset>0.5</offset>					  
+					</li>
+				</capMods>
+			</li>	 
+		</stages>
+	</HediffDef>
 	
-	
+   	<!-- 15.  -->	
+	<!-- 16.  -->	
+	<!-- 17.  -->	
+	<!-- 18.  -->	
+	<!-- 19.  -->	
+   
    
    <!-- Astartes Implants, new Bodyparts -->
    <!--
