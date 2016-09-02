@@ -29,11 +29,15 @@
 				<capMods>
 					<li>
 					 <capacity>BloodPumping</capacity>
-					 <offset>0.5</offset>
+					 <offset>0.4</offset>
 					</li>
 					<li>
 					<capacity>Metabolism</capacity>
 					<offset>0.2</offset>
+					</li>
+					<li>
+					 <capacity>Moving</capacity>
+					 <offset>0.1</offset>
 					</li>
 				</capMods>
 			</li>	 
@@ -53,6 +57,14 @@
 		</addedPartProps>
 		<stages>
 			<li>
+					<capMods>
+					<li>
+					 <capacity>Moving</capacity>
+					 <offset>0.1</offset>
+					</li>
+					
+				</capMods>
+			
 
 			</li>	 
 		</stages>
@@ -72,7 +84,16 @@
 		</addedPartProps>
 		<stages>
 			<li>
-
+					<capMods>
+					<li>
+					 <capacity>Moving</capacity>
+					 <offset>0.1</offset>
+					</li>
+					
+				</capMods>
+			
+			
+			
 			</li>	 
 		</stages>
 	</HediffDef>
@@ -98,8 +119,17 @@
 					</li>
 					<li>
 					<capacity>Metabolism</capacity>
-					<offset>0.3</offset>
+					<offset>0.2</offset>
 					</li>
+					<li>
+					 <capacity>Moving</capacity>
+					 <offset>0.1</offset>
+					</li>
+					<li>
+					<capacity>Consciousness</capacity>
+					<offset>0.1</offset>
+					</li>
+					
 				</capMods>
 
 			</li>	 
@@ -118,7 +148,20 @@
 		</addedPartProps>
 		<stages>
 			<li>
-
+				<capMods>
+			  		<li>
+					  <capacity>BloodFiltration</capacity>
+					  <offset>0.1</offset>					  
+					</li>
+					<li>
+					<capacity>Metabolism</capacity>
+					<offset>0.1</offset>
+					</li>
+				     <!-- <li>
+					<painFactor>0.9</painFactor>
+					</li> -->
+				 </capMods>
+								
 			</li>	 
 		</stages>
 	</HediffDef>
@@ -137,7 +180,13 @@
 		</addedPartProps>
 		<stages>
 			<li>
-
+				<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>0.1</offset>
+				</li>
+				</capMods>
+			
 			</li>	 
 		</stages>
 	</HediffDef>
@@ -172,7 +221,13 @@
 		</addedPartProps>
 		<stages>
 			<li>
-
+				<capMods>	
+		   <li>
+               <capacity>Manipulation</capacity>
+               <offset>0.1</offset>
+            </li>
+				</capMods>
+			
 			</li>	 
 		</stages>
 	</HediffDef>
@@ -189,6 +244,17 @@
 		</addedPartProps>
 		<stages>
 			<li>
+			
+			<capMods>
+					<li>
+					 <capacity>Breathing</capacity>
+					 <offset>0.5</offset>
+					</li>
+				
+			</capMods>
+			
+			
+			
 
 			</li>	 
 		</stages>
@@ -208,7 +274,13 @@
 		</addedPartProps>
 		<stages>
 			<li>
-
+			<capMods>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.50</offset>
+					</li>
+			</capMods>
+ 
 			</li>	 
 		</stages>
 	</HediffDef>
@@ -251,7 +323,12 @@
 		</addedPartProps>
 		<stages>
 			<li>
-
+					<capMods>
+				<li>
+					<capacity>Consciousness</capacity>
+					<offset>0.1</offset>
+				</li>
+					</capMods>
 			</li>	 
 		</stages>
 	</HediffDef>
@@ -291,7 +368,7 @@
 				<capMods>
 					<li>
 					  <capacity>BloodFiltration</capacity>
-					  <offset>0.5</offset>					  
+					  <offset>0.4</offset>					  
 					</li>
 				</capMods>
 			</li>	 
