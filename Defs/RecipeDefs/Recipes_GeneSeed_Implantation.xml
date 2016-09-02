@@ -354,7 +354,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>PreomnorNodePlaceHolder</li>
+			<li>PreomnorPlaceHolder</li>
 
 		</appliedOnFixedBodyParts>
 		<addsHediff>preomnor</addsHediff>
@@ -402,7 +402,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>OmophageaNodePlaceHolder</li>
+			<li>OmophageaPlaceHolder</li>
 
 		</appliedOnFixedBodyParts>
 		<addsHediff>omophagea</addsHediff>
@@ -841,7 +841,7 @@
 <!-- 18. Progenoids -->	
 
 <RecipeDef ParentName="ImplantGeneSeedPart">
-		<defName>Progenoids</defName>
+		<defName>Progenoid</defName>
 		<label>Install Astartes Progenoids</label>
 		<description>Installs the Progenoids in your Neophyte.</description>
 		<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
@@ -859,7 +859,7 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Progenoids</li>
+						<li>Progenoid</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -870,14 +870,14 @@
 				<li>Medicine</li>
 			</categories>
 			<thingDefs>
-				<li>Progenoids</li>
+				<li>Progenoid</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ProgenoidsPlaceHolder</li>
+			<li>ProgenoidPlaceHolder</li>
 
 		</appliedOnFixedBodyParts>
-		<addsHediff>progenoids</addsHediff>
+		<addsHediff>progenoid</addsHediff>
 		<recipeUsers>
 			<li>Human</li>
 
@@ -922,10 +922,10 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<appliedOnFixedBodyParts>
-			<li>ProgenoidsPlaceHolder</li>
+			<li>BlackCarpacePlaceHolder</li>
 
 		</appliedOnFixedBodyParts>
-		<addsHediff>blackCarpace</addsHediff>
+		<addsHediff>BlackCarpace</addsHediff>
 		<recipeUsers>
 			<li>Human</li>
 

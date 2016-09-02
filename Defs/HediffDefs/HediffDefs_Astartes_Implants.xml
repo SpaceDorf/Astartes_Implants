@@ -171,7 +171,7 @@
 	<HediffDef ParentName="addedAstartesImplant">
 		<defName>MultiLung</defName>
 		<label>Multi-Lung</label>
-		<spawnThingOnRemoved>Multi-Lung</spawnThingOnRemoved>
+		<spawnThingOnRemoved>MultiLung</spawnThingOnRemoved>
 		<addedPartProps>
 			<partEfficiency>1.0</partEfficiency>
 			<isSolid>true</isSolid>
@@ -251,7 +251,7 @@
 	<HediffDef ParentName="addedAstartesImplant">
 		<defName>MelanchromicOrgan</defName>
 		<label>Melanchromic Organ</label>
-		<spawnThingOnRemoved>Melanchromic Organ</spawnThingOnRemoved>
+		<spawnThingOnRemoved>MelanchromicOrgan</spawnThingOnRemoved>
 		<addedPartProps>
 			<partEfficiency>1.0</partEfficiency>
 			<isSolid>true</isSolid>
@@ -338,9 +338,9 @@
 	
 	<!-- 18.  -->	
 	<HediffDef ParentName="addedAstartesImplant">
-		<defName>progenoids</defName>
-		<label>Progenoids</label>
-		<spawnThingOnRemoved>Progenoids</spawnThingOnRemoved>
+		<defName>progenoid</defName>
+		<label>Progenoid</label>
+		<spawnThingOnRemoved>progenoid</spawnThingOnRemoved>
 		<addedPartProps>
 			<partEfficiency>1.0</partEfficiency>
 			<isSolid>true</isSolid>
@@ -358,7 +358,7 @@
 	<HediffDef ParentName="addedAstartesImplant">
 		<defName>BlackCarpace</defName>
 		<label>Black Carpace</label>
-		<spawnThingOnRemoved>Black Carpace</spawnThingOnRemoved>
+		<spawnThingOnRemoved>BlackCarpace</spawnThingOnRemoved>
 		<addedPartProps>
 			<partEfficiency>1.0</partEfficiency>
 			<isSolid>true</isSolid>
