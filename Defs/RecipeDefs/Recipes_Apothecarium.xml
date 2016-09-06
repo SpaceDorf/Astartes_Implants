@@ -3,16 +3,20 @@
 
 
 	<RecipeDef Name="AP_RecipeRoot" Abstract="True">
-		<workAmount>3500</workAmount>
+		<workAmount>3000</workAmount>
 		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
 		<effectWorking>Surgery</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>
 	</RecipeDef>
 
+	
+<!-- == 1.) 2nd Heart  == -->	
+	
+	
 	<RecipeDef ParentName="AP_RecipeRoot">
 		<defName>AP_Heart</defName>
 		<label>Forge Second Heart</label>
-		<description>Forge a Second Heart Implant from the Geneseed of your Chapter</description>
+		<description>Forge a Second Heart from the Geneseed of your Chapter</description>
 		<jobString>Giving Birth to Second Heart</jobString>
 		<products>
 			<SecondHeart>1</SecondHeart>
@@ -34,8 +38,501 @@
       </fixedIngredientFilter>
 	</RecipeDef>
 	
+	
+<!-- == 2.) Ossmodula  == -->	
+	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_Ossmodula</defName>
+		<label>Forge Ossmodula</label>
+		<description>Forge a Ossmodula from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Ossmodula</jobString>
+		<products>
+			<Ossmodula>1</Ossmodula>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>
+	
+<!-- == 3.) Biscorpea  == -->	
+	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_Biscorpea</defName>
+		<label>Forge Biscorpea</label>
+		<description>Forge a Biscorpea from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Biscorpea</jobString>
+		<products>
+			<Biscorpea>1</Biscorpea>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>
+	
+<!-- == 4.) Haemastamen  == -->	
+	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_Haemastamen</defName>
+		<label>Forge Haemastamen</label>
+		<description>Forge a Haemastamen from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Haemastamen</jobString>
+		<products>
+			<Haemastamen>1</Haemastamen>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>
+	
+<!-- == 5.) Larraman's Organ  == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_LarramansOrgan</defName>
+		<label>Forge Larraman's Organ</label>
+		<description>Forge a Larraman's Organ from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Larraman's Organ</jobString>
+		<products>
+			<LarramansOrgan>1</LarramansOrgan>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>
+	
+	
+<!-- == 6.) Catalepsean Node == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_CatalepseanNode</defName>
+		<label>Forge Catalepsean Node</label>
+		<description>Forge a Catalepsean Node from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Catalepsean Node</jobString>
+		<products>
+			<CatalepseanNode>1</CatalepseanNode>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>
+		
+	
+<!-- == 7.) Preomnor == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_Preomnor</defName>
+		<label>Forge Preomnor</label>
+		<description>Forge a Preomnor from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Preomnor</jobString>
+		<products>
+			<Preomnor>1</Preomnor>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>
+		
+	
+<!-- == 8.) Omophagea == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_Omophagea</defName>
+		<label>Forge Omophagea</label>
+		<description>Forge a Omophagea from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Omophagea</jobString>
+		<products>
+			<Omophagea>1</Omophagea>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>	
 
 	
+<!-- == 9.) MultiLung == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_MultiLung</defName>
+		<label>Forge Multi-Lung</label>
+		<description>Forge a Multi-Lung from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Multi-Lung</jobString>
+		<products>
+			<MultiLung>1</MultiLung>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>	
+
+	
+<!-- == 10.)Occulobe == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_Occulobe</defName>
+		<label>Forge Occulobe</label>
+		<description>Forge a Occulobe from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Occulobe</jobString>
+		<products>
+			<Occulobe>1</Occulobe>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>	
+	
+<!-- == 11.)LymansEar == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_LymansEar</defName>
+		<label>Forge Lyman's Ears</label>
+		<description>Forge two Lyman's Ears from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Lyman's Ears</jobString>
+		<products>
+			<LymansEar>2</LymansEar>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>		
+
+		
+<!-- == 12.) Sus-an Membrane == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_SusanMembrane</defName>
+		<label>Forge Sus-an Membrane</label>
+		<description>Forge a Sus-an Membrane from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Sus-an Membrane</jobString>
+		<products>
+			<SusanMembrane>1</SusanMembrane>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>	
+	
+<!-- == 13.)Melanchromic Organ == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_MelanchromicOrgan</defName>
+		<label>Forge Melanchromic Organ</label>
+		<description>Forge a Melanchromic Organ from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Lyman's Ears</jobString>
+		<products>
+			<MelanchromicOrgan>1</MelanchromicOrgan>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>	
+
+<!-- == 14.)Oolitic Kidney == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_OoliticKidney</defName>
+		<label>Forge Oolitic Kidney</label>
+		<description>Forge a Oolitic Kidney from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Oolitic Kidney</jobString>
+		<products>
+			<OoliticKidney>1</OoliticKidney>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>		
+	
+<!-- == 15.)Neuroglottis == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_Neuroglottis</defName>
+		<label>Forge Neuroglottis</label>
+		<description>Forge a Neuroglottis from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Neuroglottis</jobString>
+		<products>
+			<Neuroglottis>1</Neuroglottis>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>
+		
+<!-- == 16.)Mucranoid == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_Mucranoid</defName>
+		<label>Forge Mucranoid</label>
+		<description>Forge a Mucranoid from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Mucranoid</jobString>
+		<products>
+			<Mucranoid>1</Mucranoid>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>	
+
+<!-- == 17.)Betcher's Glands  == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_BetchersGlands</defName>
+		<label>Forge Betcher's Glands</label>
+		<description>Forge two Betcher's Glands from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Betcher's Glands</jobString>
+		<products>
+			<BetchersGlands>2</BetchersGlands>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>		
+
+<!-- == 18.)progenoid  == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_progenoid</defName>
+		<label>Forge Progenoid Glands</label>
+		<description>Forge two Progenoid Glands from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Progenoid Glands</jobString>
+		<products>
+			<progenoid>2</progenoid>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>	
+
+<!-- == 19.)BlackCarpace == -->	
+	
+	<RecipeDef ParentName="AP_RecipeRoot">
+		<defName>AP_BlackCarpace</defName>
+		<label>Forge Black Carpace</label>
+		<description>Forge the Black Carpace from the Geneseed of your Chapter</description>
+		<jobString>Giving Birth to Black Carpace</jobString>
+		<products>
+			<BlackCarpace>1</BlackCarpace>
+		</products>
+	      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GeneSeedZyg</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GeneSeedZyg</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+	</RecipeDef>		
 
 
 </RecipeDefs>

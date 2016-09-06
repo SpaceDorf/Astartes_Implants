@@ -51,7 +51,44 @@
      <Steel>100</Steel>
     </costList>
 	<recipes>
+		<!-- 1.) -->
 		<li>AP_Heart</li>
+			<!-- 2.) -->
+		<li>AP_Ossmodula</li>
+			<!-- 3.) -->
+		<li>AP_Biscorpea</li>
+			<!-- 4.) -->
+		<li>AP_Haemastamen</li>
+			<!-- 5.) -->
+		<li>AP_LarramansOrgan</li>
+			<!-- 6.) -->
+		<li>AP_CatalepseanNode</li>
+			<!-- 7.) -->
+		<li>AP_Preomnor</li>
+			<!-- 8.) -->
+		<li>AP_Omophagea</li>
+			<!-- 9.) -->
+		<li>AP_MultiLung</li>
+			<!-- 10.) -->
+		<li>AP_Occulobe</li>
+			<!-- 11.) -->
+		<li>AP_LymansEar</li>
+			<!-- 12.) -->
+		<li>AP_SusanMembrane</li>
+			<!-- 13.) -->
+		<li>AP_MelanchromicOrgan</li>
+			<!-- 14.) -->
+		<li>AP_OoliticKidney</li>
+			<!-- 15.) -->
+		<li>AP_Neuroglottis</li>
+			<!-- 16.) -->
+		<li>AP_Mucranoid</li>
+			<!-- 17.) -->
+		<li>AP_BetchersGlands</li>
+			<!-- 18.) -->
+		<li>AP_progenoid</li>
+			<!-- 19.) -->
+		<li>AP_BlackCarpace</li>
 	</recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
