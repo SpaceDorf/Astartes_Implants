@@ -20,7 +20,7 @@
     <defName>apothecarium</defName>
     <label>Apothecarium</label>
     <graphicData>
-      <texPath>Things/Building/DermalRegeneratorAlt</texPath>
+      <texPath>Things/Building/Apothcarium_InProgress</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawsize>3,3</drawsize>
     </graphicData>

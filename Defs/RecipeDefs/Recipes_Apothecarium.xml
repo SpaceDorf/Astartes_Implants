@@ -3,10 +3,12 @@
 
 
 	<RecipeDef Name="AP_RecipeRoot" Abstract="True">
-		<workAmount>3000</workAmount>
 		<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
 		<effectWorking>Surgery</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>
+		<workAmount>3000</workAmount>
+		<unfinishedThingDef>UnfinishedGeneSeedImplant</unfinishedThingDef>
+		<RecipeUsers><li>apothecarium</li></RecipeUsers>
 	</RecipeDef>
 
 	
@@ -22,6 +24,14 @@
 			<SecondHeart>1</SecondHeart>
 		</products>
 	      <ingredients>
+		  		<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
          <li>
             <filter>
                <thingDefs>
@@ -33,7 +43,8 @@
       </ingredients>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>GeneSeedZyg</li>
+            <li>Steel</li>
+			<li>GeneSeedZyg</li>
          </thingDefs>
       </fixedIngredientFilter>
 	</RecipeDef>

@@ -97,7 +97,7 @@
 	<!-- 9.  -->	
 	<BodyPartDef>
     <defName>MultiLungPlaceHolder</defName>
-    <label>MultiLung</label>
+    <label>Multi-Lung</label>
     <hitPoints>1</hitPoints>
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <bleedingRateMultiplier>0</bleedingRateMultiplier>
@@ -138,6 +138,8 @@
     </BodyPartDef>		
 	
 	<!-- 14. Oolitic Kidney -->	
+	<!-- replaces right kidney -->	
+	
 	
 	<!-- 15.  -->	
 	<BodyPartDef>

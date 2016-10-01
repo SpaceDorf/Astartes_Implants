@@ -18,7 +18,6 @@
     <defName>SecondHeart</defName>
     <label>Second Heart</label>
     <hitPoints>25</hitPoints>
-
     <oldInjuryBaseChance>0</oldInjuryBaseChance>
     <bleedingRateMultiplier>1.5</bleedingRateMultiplier>
     <skinCovered>false</skinCovered>
@@ -29,14 +28,124 @@
     <dontSuggestAmputation>true</dontSuggestAmputation>
    </BodyPartDef>
 
-	
 
+   <!-- 2 --> 
  
+    <BodyPartDef>
+    <defName>ossmodula</defName>
+    <label>Ossmodula</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+ 
+ 
+    <!-- 3 --> 
+ 
+    <BodyPartDef>
+    <defName>biscorpea</defName>
+    <label>Biscorpea</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+ 
+  
+    <!-- 4 --> 
+ 
+    <BodyPartDef>
+    <defName>haemastamen</defName>
+    <label>Haemastamen</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.4</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+ 
+   
+    <!-- 5 --> 
+ 
+    <BodyPartDef>
+    <defName>larramansOrgan</defName>
+    <label>Larramans Organ</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.5</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+ 
+    
+    <!-- 6 --> 
+ 
+    <BodyPartDef>
+    <defName>catalepseanNode</defName>
+    <label>Catalepsean Node</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+ 
+     
+    <!-- 7 --> 
+ 
+    <BodyPartDef>
+    <defName>preomnor</defName>
+    <label>Preomnor</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+	 <activities>
+      <li>Eating_digestion</li>
+    </activities>
+    </BodyPartDef>
+ 
+ 
+ 
+      <!-- 8 --> 
+ 
+    <BodyPartDef>
+    <defName>omophagea</defName>
+    <label>Omophagea</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+ 
+     <!-- 9 --> 
+ 
+    <BodyPartDef>
+    <defName>MultiLung</defName>
+    <label>Multi-Lung</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.3</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+	<activities>
+      <li>Breathing_main</li>
+     </activities>
+    </BodyPartDef>
+ 
+ 
+      <!-- 10 --> 
+ 
+    <BodyPartDef>
+    <defName>occulobe</defName>
+    <label>Occulobe</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
  
  
  <!-- 11 -->
   <BodyPartDef>
-    <defName>LeftLymansEar</defName>
+    <defName>leftLymansEar</defName>
     <label>left Lyman's Ear</label>
     <hitPoints>15</hitPoints>
     <frostbiteVulnerability>1</frostbiteVulnerability>
@@ -51,7 +160,7 @@
   </BodyPartDef>
 
   <BodyPartDef>
-    <defName>RightLymansEar</defName>
+    <defName>rightLymansEar</defName>
     <label>right Lyman's Ear</label>
     <hitPoints>15</hitPoints>
     <frostbiteVulnerability>5</frostbiteVulnerability>
@@ -65,23 +174,104 @@
 	<dontSuggestAmputation>true</dontSuggestAmputation>
   </BodyPartDef>
 
-  
-  <!--
+     
+        <!-- 12 --> 
+ 
     <BodyPartDef>
-    <defName>Stomach</defName>
-    <label>stomach</label>
+    <defName>susAnMembran</defName>
+    <label>Sus-An Membran</label>
     <hitPoints>25</hitPoints>
-    <oldInjuryBaseChance>0.08</oldInjuryBaseChance>
-    <bleedingRateMultiplier>1.4</bleedingRateMultiplier>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+  
+  
+     <!-- 13 --> 
+ 
+    <BodyPartDef>
+    <defName>melanchromicOrgan</defName>
+    <label>Melanchromic Organ</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+  
+  
+	<!-- 14 -->
+  
+  	<BodyPartDef>
+    <defName>ooliticKidney</defName>
+    <label>Oolitic Kidney</label>
+    <hitPoints>30</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>1.3</bleedingRateMultiplier>
     <skinCovered>false</skinCovered>
     <activities>
-      <li>Eating_digestion</li>
+      <li>BloodFiltration_kidney</li>
     </activities>
-    <spawnThingOnRemoved>Stomach</spawnThingOnRemoved>
   </BodyPartDef>
- -->
- 
 
+  
+     <!-- 15 --> 
+ 
+    <BodyPartDef>
+    <defName>neuroglottis</defName>
+    <label>Neuroglottis</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+		  
+     <!-- 16 --> 
+ 
+    <BodyPartDef>
+    <defName>mucranoid</defName>
+    <label>Mucranoid</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+
+     <!-- 17 --> 
+ 
+    <BodyPartDef>
+    <defName>betchersGlands</defName>
+    <label>Betchers Glands</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+	
+	
+     <!-- 18 --> 
+ 
+    <BodyPartDef>
+    <defName>progenoid</defName>
+    <label>Progenoid Glands</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+	
+	 <!-- 19 --> 
+ 
+    <BodyPartDef>
+    <defName>blackCarpace</defName>
+    <label>Black Carpace</label>
+    <hitPoints>25</hitPoints>
+    <oldInjuryBaseChance>0</oldInjuryBaseChance>
+    <bleedingRateMultiplier>0</bleedingRateMultiplier>
+    <skinCovered>false</skinCovered>
+    </BodyPartDef>
+
+	
+  <!--
   <BodyPartDef>
     <defName>EnforcedRibcage</defName>
     <label>Enforce Ribcage</label>
@@ -91,4 +281,6 @@
     <isSolid>true</isSolid>
   </BodyPartDef>
 
+ --> 
+  
 </BodyPartDefs>

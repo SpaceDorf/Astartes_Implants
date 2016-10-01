@@ -3,14 +3,21 @@
 *************************************
 
 
+Kaptain Kavern and TrashMan for initiating the 40k hype in A14 in the first place.
+
+MayPeX for the awesome Apothecarium and the other Textures.
+
 Mods I tinkered with to help me built my own. 
 
 Expanded Prosthetics and Organ Engineering by Ykara
-DESurgerys, A Dog Said by kaptain_kavern
+DESurgerys & A Dog Said by kaptain_kavern
+Special thanks to skullywag for letting me dissect his Dermal Regenerator, 
+which gave me an awesome headstart for the C# part of the implants. and Dr. Ohu for his Alien Framework
 
-Kaptain Kavern and TrashMan for initiating the 40k hype in A14.
+Extra Special Thanks to Diana Winthers for listening to me nerding out. 
 
-MayPeX for the awesome Apothecarium and the other Textures.
+
+
 
 Descriptions of the Implants are taken mainly from the Deathwatch RPG Sourcebook
 and other Sources by GamesWorkshop.

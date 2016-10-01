@@ -20,15 +20,54 @@
       <MaxHitPoints>50</MaxHitPoints>
       <MarketValue>0</MarketValue>
       <Flammability>1.0</Flammability>
+	  <DeteriorationRate>0</DeteriorationRate>
     </statBases>
-    <intricate>true</intricate>
+<!--    <intricate>true</intricate> -->
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
+	
+	
+	
   </ThingDef>
   
-  
-
-
 
 </Resources>
+
+<!-- 
+
+  <ThingDef ParentName="ResourceBass">
+    <defName>ApparelloPlastic</defName>
+    <label>plastic blob</label>
+    <description>Piece of plastic, molten into a useless blob. It's just waste to be disposed of now.</description>
+    <graphicData>
+      <texPath>Tables/Plastic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(162,157,152)</color>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>4</MarketValue>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Chunks</li>
+    </thingCategories>
+    <stuffProps>
+      <stuffAdjective>plastic</stuffAdjective>
+      <categories>
+        <li>ApparelloPlastic</li>
+      </categories>
+      <color>(162,157,152)</color>
+      <allowColorGenerators>true</allowColorGenerators>
+    </stuffProps>
+    <tradeability>Never</tradeability>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  -->
