@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ThingDefs>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_OrassanRifle</defName>
+    <label>orassan rifle</label>
+    <description>Charged-shot energy/projectile rifle. Orassan design.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Weapons/kittyrifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>15</damageAmountBase>
+      <speed>100</speed>
+    </projectile>
+    <soundInteract>InteractChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>30000</WorkToMake>
+      <MarketValue>2400</MarketValue>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.90</AccuracyMedium>
+      <AccuracyLong>0.80</AccuracyLong>
+      <RangedWeapon_Cooldown>0.66</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>60</Steel>
+      <Plasteel>200</Plasteel>
+      <Component>10</Component>
+    </costList>
+    <techLevel>Ultra</techLevel>
+    <weaponTags>
+      <li>OrassanRifle</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_ChargeRifle</projectileDef>
+        <warmupTicks>70</warmupTicks>
+        <range>36</range>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>ShotChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_OrassanSniper</defName>
+    <label>orassan sniper</label>
+    <description>Charged-shot rail-assisted lance weapon. Fires a single charged shot at high velocity. Orassan design.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Weapons/kittysniper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <speed>150</speed>
+    </projectile>
+    <statBases>
+      <WorkToMake>30000</WorkToMake>
+      <MarketValue>4000</MarketValue>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.95</AccuracyMedium>
+      <AccuracyLong>.99</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>120</Steel>
+      <Plasteel>250</Plasteel>
+      <Component>15</Component>
+    </costList>
+    <techLevel>Ultra</techLevel>
+    <weaponTags>
+      <li>OrassanSniper</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_ChargeLance</projectileDef>
+        <warmupTicks>80</warmupTicks>
+        <range>48</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>ChargeLance_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>Gun_OrassanPistol</defName>
+		<label>Orassan pistol</label>
+		<description>Charged-shot energy/projectile pistol. Orassan design.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/Weapons/kittypistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>InteractChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MarketValue>800</MarketValue>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>.5</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+		<recipeMaker>
+			<researchPrerequisite>ChargedShot</researchPrerequisite>
+		</recipeMaker>
+		<costList>
+			<Steel>30</Steel>
+			<Plasteel>25</Plasteel>
+			<Component>5</Component>
+		</costList>
+		<techLevel>Ultra</techLevel>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_ChargeRifle</projectileDef>
+        <warmupTicks>35</warmupTicks>
+        <range>20</range>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>ShotChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+		<weaponTags>
+			<li>OrassanPistol</li>
+		</weaponTags>
+	</ThingDef>
+
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Gun_OrassanLMG</defName>
+    <label>Orassan lmg</label>
+    <description>Charged-shot blaster for area suppressive fire. Orassan design.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/Weapons/kittylmg</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>InteractChargeRifle</soundInteract>
+    <statBases>
+      <WorkToMake>35000</WorkToMake>
+      <MarketValue>3500</MarketValue>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.9</AccuracyMedium>
+      <AccuracyLong>.7</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+    </recipeMaker>
+    <costList>
+      <Steel>200</Steel>
+      <Plasteel>300</Plasteel>
+      <Component>20</Component>
+    </costList>
+    <techLevel>Ultra</techLevel>
+    <weaponTags>
+      <li>OrassanLMG</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <projectileDef>Bullet_ChargeRifle</projectileDef>
+        <warmupTicks>35</warmupTicks>
+        <range>40</range>
+        <burstShotCount>10</burstShotCount>
+        <soundCast>ShotChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+</ThingDefs>

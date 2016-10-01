@@ -1,0 +1,7 @@
+D:\Games\Strategy\RimWorld\Rimworld_Mods\SpaceDorfMods\A15\Examples\DermalRegenerator-DermalRegenerator1.6\Source\DermalRegenerator\obj\Release\DermalRegenerator.csprojResolveAssemblyReference.cache
+D:\Games\Strategy\RimWorld\Rimworld_Mods\SpaceDorfMods\A15\Examples\DermalRegenerator-DermalRegenerator1.6\Source\DermalRegenerator\bin\Release\DermalRegenerator.dll
+D:\Games\Strategy\RimWorld\Rimworld_Mods\SpaceDorfMods\A15\Examples\DermalRegenerator-DermalRegenerator1.6\Source\DermalRegenerator\bin\Release\DermalRegenerator.pdb
+D:\Games\Strategy\RimWorld\Rimworld_Mods\SpaceDorfMods\A15\Examples\DermalRegenerator-DermalRegenerator1.6\Source\DermalRegenerator\bin\Release\Assembly-CSharp.dll
+D:\Games\Strategy\RimWorld\Rimworld_Mods\SpaceDorfMods\A15\Examples\DermalRegenerator-DermalRegenerator1.6\Source\DermalRegenerator\bin\Release\UnityEngine.dll
+D:\Games\Strategy\RimWorld\Rimworld_Mods\SpaceDorfMods\A15\Examples\DermalRegenerator-DermalRegenerator1.6\Source\DermalRegenerator\obj\Release\DermalRegenerator.dll
+D:\Games\Strategy\RimWorld\Rimworld_Mods\SpaceDorfMods\A15\Examples\DermalRegenerator-DermalRegenerator1.6\Source\DermalRegenerator\obj\Release\DermalRegenerator.pdb
